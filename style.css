@@ -10,5 +10,5 @@ section {
     justify-content: center;
     align-items: center;
     background: url(london.jpg);
-    
+    height: 100vh;
 }
