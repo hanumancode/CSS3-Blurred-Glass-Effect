@@ -11,4 +11,22 @@ section {
     align-items: center;
     background: url(london.jpg);
     height: 100vh;
+    background-attachment: fixed;
 }
+
+section .glassBox {
+    position: relative;
+    max-width: 500px;
+    padding: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+section .glassBox h2 {
+    position: relative;
+    margin: 0 0 20px;
+    padding: 0;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
