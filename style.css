@@ -37,5 +37,14 @@ section .glassBox p {
     padding: 0;
     font-size: 1.5rem;
     z-index: 2;
+}
 
+section .glassBox:before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    background: #ff0;
 }
