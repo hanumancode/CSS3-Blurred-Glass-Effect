@@ -20,7 +20,7 @@ section .glassBox {
     padding: 50px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     overflow: hidden;
-    color: #000;
+    color: #fff;
 }
 
 section .glassBox h2 {
@@ -48,5 +48,5 @@ section .glassBox:before {
     bottom: -20px;
     background: url(london.jpg);
     background-attachment: fixed;
-    filter: blur(2px);
+    filter: blur(4px);
 }
