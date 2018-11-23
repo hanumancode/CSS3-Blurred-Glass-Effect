@@ -48,4 +48,5 @@ section .glassBox:before {
     bottom: -20px;
     background: url(london.jpg);
     background-attachment: fixed;
+    filter: blur(2px);
 }
