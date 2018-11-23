@@ -46,5 +46,6 @@ section .glassBox:before {
     left: -20px;
     right: -20px;
     bottom: -20px;
-    background: #ff0;
+    background: url(london.jpg);
+    background-attachment: fixed;
 }
